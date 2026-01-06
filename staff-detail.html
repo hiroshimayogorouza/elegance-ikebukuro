@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="エレガンス池袋所のセラピスト詳細情報。プロフィール、スケジュールをご確認いただけます。">
+    <title>セラピスト詳細 - エレガンス池袋所</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header (Same as other pages) -->
+    <header class="header" id="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="business-hours">
+                        <i class="far fa-clock"></i>
+                        <span>営業時間：10:00〜24:00</span>
+                    </div>
+                    <div class="header-contact">
+                        <a href="tel:0369126211" class="phone-link">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>03-6912-6211</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <span class="logo-text">Elegance</span>
+                            <span class="logo-subtitle">池袋所</span>
+                        </a>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="system.html">システム・料金</a></li>
+                        <li><a href="staff.html">セラピスト</a></li>
+                        <li><a href="schedule.html">スケジュール</a></li>
+                        <li><a href="howto.html">ご利用方法</a></li>
+                        <li><a href="recruit.html">求人情報</a></li>
+                    </ul>
+                    
+                    <div class="header-actions">
+                        <a href="tel:0369126211" class="btn-reserve">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>ご予約</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="page-title-en">Therapist Profile</span>
+                <span class="page-title-ja">セラピスト詳細</span>
+            </h1>
+            <div class="breadcrumb">
+                <a href="index.html">ホーム</a>
+                <span class="separator">/</span>
+                <a href="staff.html">セラピスト</a>
+                <span class="separator">/</span>
+                <span class="current">秋山 しほ</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Detail Section -->
+    <section class="staff-detail-section">
+        <div class="container">
+            <div class="staff-detail-content">
+                <div class="staff-detail-image">
+                    <div class="staff-detail-image-inner"></div>
+                </div>
+                
+                <div class="staff-detail-info">
+                    <div class="staff-detail-header">
+                        <h2 class="staff-name-ja">秋山 しほ <span class="staff-age">(27歳)</span></h2>
+                        <div class="staff-stats">
+                            <span>T154cm</span>
+                            <span>B84(D)</span>
+                            <span>W58cm</span>
+                            <span>H84cm</span>
+                        </div>
+                        <div class="staff-tags-detail">
+                            <span class="tag-detail">清楚系</span>
+                            <span class="tag-detail">癒し系</span>
+                            <span class="tag-detail">NEW</span>
+                        </div>
+                    </div>
+                    
+                    <div class="staff-detail-body">
+                        <h3 class="staff-section-title">セラピストからのコメント</h3>
+                        <p class="staff-comment">
+                            はじめまして、秋山しほと申します。お客様に最高のリラクゼーションをご提供できるよう、心を込めて施術させていただきます。<br><br>
+                            日々の疲れやストレスを忘れて、至福のひとときをお過ごしください。丁寧で優しいタッチを心がけております。初めてのお客様も安心してお越しくださいませ。皆様とお会いできることを楽しみにしております。
+                        </p>
+                        
+                        <h3 class="staff-section-title">今週のスケジュール</h3>
+                        <table class="staff-schedule-table">
+                            <thead>
+                                <tr>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                    <th>土</th>
+                                    <th>日</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="available">10:00-18:00</td>
+                                    <td class="available">13:00-21:00</td>
+                                    <td>休み</td>
+                                    <td class="available">10:00-18:00</td>
+                                    <td class="available">13:00-21:00</td>
+                                    <td class="available">10:00-22:00</td>
+                                    <td class="available">12:00-20:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="staff-detail-cta">
+                        <a href="tel:0369126211" class="btn-cta-primary">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>このセラピストを指名予約</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta" style="margin-top: 60px;">
+                <a href="staff.html" class="btn-primary">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>セラピスト一覧に戻る</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3 class="footer-logo">
+                            <span class="footer-logo-text">Elegance</span>
+                            <span class="footer-logo-subtitle">池袋所</span>
+                        </h3>
+                        <p class="footer-tagline">Premium Relaxation Salon</p>
+                    </div>
+                    
+                    <div class="footer-info">
+                        <div class="footer-info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>03-6912-6211</span>
+                        </div>
+                        <div class="footer-info-item">
+                            <i class="far fa-clock"></i>
+                            <span>10:00〜24:00</span>
+                        </div>
+                        <div class="footer-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>池袋駅徒歩1分</span>
+                        </div>
+                    </div>
+                    
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">ホーム</a></li>
+                            <li><a href="system.html">システム・料金</a></li>
+                            <li><a href="staff.html">セラピスト</a></li>
+                            <li><a href="schedule.html">スケジュール</a></li>
+                            <li><a href="howto.html">ご利用方法</a></li>
+                            <li><a href="recruit.html">求人情報</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">&copy; 2024 Elegance 池袋所. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons (Mobile) -->
+    <div class="floating-buttons">
+        <a href="tel:0369126211" class="floating-btn floating-btn-phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
